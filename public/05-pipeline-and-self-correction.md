@@ -2,7 +2,7 @@
 
 Atlas operates as a continuous ingestion and enrichment engine. At any given moment hundreds of runners are executing across dozens of data source categories — pulling, normalizing, verifying, and storing records without human intervention. Understanding how this works is essential to understanding what the data asset actually is, how it stays current, and how it stays healthy at scale.
 
-<!-- SCREENSHOT: Pipeline health view showing live runner activity and nightly cycle status -->
+![Pipeline health by category — record counts, weekly deltas, and per-source status](images/pipeline-health.png)
 
 ## Source Discovery
 
@@ -50,11 +50,13 @@ Every source in Atlas carries a health status that updates automatically based o
 
 This visibility is what makes managing a platform of **447** active sources tractable. At any given moment the health of every data source is known, classified, and actionable.
 
-<!-- SCREENSHOT: Source ecosystem health overview -->
+![Source health distribution at a glance — active, stale, and overdue counts with most-critical surfacing](images/mission-control-overview.png)
 
 ## Gap Discovery
 
 Beyond monitoring existing sources Atlas actively identifies coverage gaps — geographies, data categories, or asset classes where coverage is thin or missing entirely. The gap discovery system scores these gaps by priority and automatically queues new source development to fill them. The platform does not wait to be told where it is incomplete — it finds out on its own.
+
+![Discovered data gaps with fit scores, missing fields, and queued ingestion plans](images/sources-and-gaps.png)
 
 ---
 

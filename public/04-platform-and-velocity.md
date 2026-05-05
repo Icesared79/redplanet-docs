@@ -12,7 +12,7 @@ Atlas sits at the foundation. On top of it anything can be built — a consumer-
 
 Red Planet builds its own products on Atlas. Third parties can build on Atlas. Clients can access Atlas directly through the API and build whatever they need internally. The platform does not dictate the use case — the use case dictates how the platform is used.
 
-<!-- SCREENSHOT: API dashboard or product overview showing applications built on Atlas -->
+![SunScope — a property-intelligence product built on Atlas](images/sunscope-ct.png)
 
 ## Why This Model Wins
 

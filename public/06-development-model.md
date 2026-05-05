@@ -8,6 +8,8 @@ Development at Red Planet is driven by Claude Code, Anthropic's AI coding agent.
 
 This changes the development equation fundamentally. Tasks that would require days of engineering time execute in hours. New ingestion modules are built and deployed in a single session. Schema changes, pipeline modifications, and new signal generators are specified, built, tested, and deployed without context switching overhead.
 
+![Red Planet's internal control surface — overview, pipeline, intelligence, and control all in one view](images/platform-control.png)
+
 ## How We Work
 
 The workflow is prompt-driven. Architecture and strategy decisions are made at the human level — what to build, why, and in what sequence. Execution happens at the AI level. The result is a development velocity that a traditional team structure cannot match at this stage.
