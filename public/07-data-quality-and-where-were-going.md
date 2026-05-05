@@ -26,7 +26,7 @@ This continuous re-evaluation is what keeps the quality of a rapidly growing dat
 
 ## What This Means for Derived Intelligence
 
-Signal generation and scoring only run against Verified and Usable tier records. This is a hard constraint built into the pipeline — not a setting, not a toggle. The intelligence Atlas produces is only as good as the data it runs against, and that constraint is enforced automatically at every level of the stack.
+Signal generation and scoring run only against Verified and Usable tier records — by design. The intelligence Atlas produces is only as good as the data it runs against, and that floor is enforced automatically.
 
 ## Where We're Going
 
@@ -34,7 +34,7 @@ Atlas is not a finished product. It is a continuously evolving platform with a c
 
 ## Scale
 
-The immediate priority is scale. Atlas is on a path to one billion verified records. That milestone is not aspirational — it is an engineering target with a defined timeline, driven by expanding source coverage, increased runner concurrency, and migration to cloud infrastructure built for sustained high-volume ingestion.
+The immediate priority is scale. Atlas is on a path to one billion verified records. That milestone is not aspirational — it is an engineering target with a defined timeline, driven by expanding source coverage, increased ingestion concurrency, and infrastructure built for sustained high-volume ingestion.
 
 At one billion records Atlas becomes a data asset of a different category entirely — one that competes directly with the largest institutional data providers in the world, at a fraction of their cost structure.
 

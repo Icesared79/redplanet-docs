@@ -6,7 +6,7 @@ Atlas is built using AI as the primary development tool. This is not a footnote 
 
 Development at Red Planet is driven by Claude Code, Anthropic's AI coding agent. Claude Code operates as a local development environment that reads and writes files, executes commands, queries databases, and ships code end to end without manual steps.
 
-This changes the development equation fundamentally. Tasks that would require days of engineering time execute in hours. New runners are built and deployed in a single session. Schema changes, pipeline modifications, and new signal generators are specified, built, tested, and deployed without context switching overhead.
+This changes the development equation fundamentally. Tasks that would require days of engineering time execute in hours. New ingestion modules are built and deployed in a single session. Schema changes, pipeline modifications, and new signal generators are specified, built, tested, and deployed without context switching overhead.
 
 ## How We Work
 
