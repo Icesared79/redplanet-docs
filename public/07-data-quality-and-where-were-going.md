@@ -3,6 +3,7 @@
 At the scale Atlas operates, data quality is not a feature — it is an operational requirement. A record that cannot be trusted is worse than no record at all. Atlas is built around this principle from the ground up. As of **2026-05-05 13:03 UTC**, Atlas holds **259,053,764** verified records across **447** active sources, with quality classification applied across the core property and parcel layer.
 
 ![Atlas Sources & Gaps — automated gap discovery with fit scoring and acquisition recommendations](images/sources-and-gaps.png)
+
 *Atlas Sources & Gaps — automated gap discovery with fit scoring and acquisition recommendations*
 
 ## The Four-Tier System

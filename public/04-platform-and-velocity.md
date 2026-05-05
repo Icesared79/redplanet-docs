@@ -45,6 +45,7 @@ Atlas has already demonstrated this velocity across multiple verticals:
 **Distress Intelligence** — Homeowner and commercial distress signals surfaced from filing activity, tax delinquency, and ownership patterns. A product serving nonprofit housing counselors and institutional investors simultaneously from the same underlying data.
 
 ![SunScope — CT Solar Property Intelligence, built on Atlas data](images/sunscope-map.png)
+
 *SunScope — CT Solar Property Intelligence, built on Atlas data*
 
 ## The Implication for New Markets

@@ -5,6 +5,7 @@ Atlas is not a database. It is not a data vendor. It is not a scraper. It is an 
 The distinction matters. A database stores what you put into it. Atlas decides what it needs, goes and gets it, verifies it, and makes it queryable. The engine is self-directing — it identifies gaps in its own coverage, discovers new sources to fill them, builds the pipelines to ingest them, and monitors its own health continuously.
 
 ![Atlas Mission Control — live record count, active sources, and 30-day growth](images/mission-control-overview.png)
+
 *Atlas Mission Control — live record count, active sources, and 30-day growth*
 
 ## Autonomous by Design

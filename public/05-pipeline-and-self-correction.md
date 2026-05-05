@@ -39,6 +39,7 @@ A data platform that requires constant human intervention to stay healthy does n
 Every runner execution is logged and continuously monitored. Failures, silent sources, and quality regressions are identified automatically and routed to the appropriate response path. Detection is not reactive — the system identifies degradation patterns before they become failures, so investigation begins before a source goes fully offline.
 
 ![Atlas Mission Control — real-time pipeline activity, source health, and system alerts](images/mission-control-detail.png)
+
 *Atlas Mission Control — real-time pipeline activity, source health, and system alerts*
 
 ## Automated Recovery
