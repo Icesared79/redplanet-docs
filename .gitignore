@@ -1,0 +1,8 @@
+.scripts/raw/
+.scripts/index.json
+.scripts/__pycache__/
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
