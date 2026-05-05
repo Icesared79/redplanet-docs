@@ -12,8 +12,6 @@ Atlas sits at the foundation. On top of it anything can be built — a consumer-
 
 Red Planet builds its own products on Atlas. Third parties can build on Atlas. Clients can access Atlas directly through the API and build whatever they need internally. The platform does not dictate the use case — the use case dictates how the platform is used.
 
-![SunScope — a property-intelligence product built on Atlas](images/sunscope-ct.png)
-
 ## Why This Model Wins
 
 Legacy providers built vertically — they own the data, the interface, and the relationship. That creates lock-in but it also creates a ceiling. Their product can only be as good as their roadmap allows.
@@ -45,6 +43,9 @@ Atlas has already demonstrated this velocity across multiple verticals:
 **CT Solar Intelligence** — Properties scored across solar potential, roof characteristics, utility rates, and incentive eligibility. A complete solar lead intelligence product built on existing Atlas parcel and climate data.
 
 **Distress Intelligence** — Homeowner and commercial distress signals surfaced from filing activity, tax delinquency, and ownership patterns. A product serving nonprofit housing counselors and institutional investors simultaneously from the same underlying data.
+
+![SunScope — CT Solar Property Intelligence, built on Atlas data](images/sunscope-map.png)
+*SunScope — CT Solar Property Intelligence, built on Atlas data*
 
 ## The Implication for New Markets
 

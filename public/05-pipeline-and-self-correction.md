@@ -2,8 +2,6 @@
 
 Atlas operates as a continuous ingestion and enrichment engine. At any given moment hundreds of runners are executing across dozens of data source categories — pulling, normalizing, verifying, and storing records without human intervention. Understanding how this works is essential to understanding what the data asset actually is, how it stays current, and how it stays healthy at scale.
 
-![Pipeline health by category — record counts, weekly deltas, and per-source status](images/pipeline-health.png)
-
 ## Source Discovery
 
 Atlas does not rely on a fixed list of manually curated sources. The engine includes an autodiscovery layer that continuously identifies new data sources across government portals, court record systems, county assessor databases, state entity registries, and similar public-record domains. When a new source is identified it is added to the source registry, categorized, and queued for ingestion development.
@@ -40,6 +38,9 @@ A data platform that requires constant human intervention to stay healthy does n
 
 Every runner execution is logged and continuously monitored. Failures, silent sources, and quality regressions are identified automatically and routed to the appropriate response path. Detection is not reactive — the system identifies degradation patterns before they become failures, so investigation begins before a source goes fully offline.
 
+![Atlas Mission Control — real-time pipeline activity, source health, and system alerts](images/mission-control-detail.png)
+*Atlas Mission Control — real-time pipeline activity, source health, and system alerts*
+
 ## Automated Recovery
 
 When a problem is detected the self-correction layer attempts recovery automatically. Issues that can be resolved programmatically are resolved without human involvement. Issues that cannot are escalated with full diagnostic context so a human can intervene with complete information rather than diagnosing from scratch.
@@ -50,13 +51,9 @@ Every source in Atlas carries a health status that updates automatically based o
 
 This visibility is what makes managing a platform of **447** active sources tractable. At any given moment the health of every data source is known, classified, and actionable.
 
-![Source health distribution at a glance — active, stale, and overdue counts with most-critical surfacing](images/mission-control-overview.png)
-
 ## Gap Discovery
 
 Beyond monitoring existing sources Atlas actively identifies coverage gaps — geographies, data categories, or asset classes where coverage is thin or missing entirely. The gap discovery system scores these gaps by priority and automatically queues new source development to fill them. The platform does not wait to be told where it is incomplete — it finds out on its own.
-
-![Discovered data gaps with fit scores, missing fields, and queued ingestion plans](images/sources-and-gaps.png)
 
 ---
 

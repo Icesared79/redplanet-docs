@@ -2,7 +2,8 @@
 
 Atlas is built around a single principle — the most valuable data is the data nobody else has. Not aggregated feeds. Not licensed vendor content. Proprietary records sourced, normalized, and maintained by the engine itself, growing autonomously every night. As of **2026-05-04 19:45 UTC**, Atlas holds **249,263,871** verified records across **447** active sources.
 
-![Records by category, 30-day growth, and market coverage across nine cities](images/data-asset-coverage.png)
+![Atlas Pipeline Health — data categories, source counts, and 7-day activity](images/pipeline-health.png)
+*Atlas Pipeline Health — data categories, source counts, and 7-day activity*
 
 ## Property & Parcel Data
 
