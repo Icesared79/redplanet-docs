@@ -52,7 +52,7 @@ Atlas has already demonstrated this velocity across multiple verticals:
 
 Every new market Atlas enters — whether geographic or vertical — immediately unlocks new product possibilities. The data infrastructure does not need to be rebuilt. The intelligence layer does not need to be redesigned. A new scoring model, a new signal category, a new API endpoint — and a new product exists.
 
-This is what it means to own the platform rather than the product. The asset compounds. Every improvement to Atlas makes every product built on it better, and every new product validates the platform for the next one. Today Atlas holds **249,263,871** verified records across **447** active sources — and every one of them is available to any product built on the platform.
+This is what it means to own the platform rather than the product. The asset compounds. Every improvement to Atlas makes every product built on it better, and every new product validates the platform for the next one. Today Atlas holds hundreds of millions of verified records across hundreds of active sources — and every one of them is available to any product built on the platform.
 
 ---
 

@@ -1,6 +1,6 @@
 # The Data Asset
 
-Atlas is built around a single principle — the most valuable data is the data nobody else has. Not aggregated feeds. Not licensed vendor content. Proprietary records sourced, normalized, and maintained by the engine itself, growing autonomously every night. As of **2026-05-04 19:45 UTC**, Atlas holds **249,263,871** verified records across **447** active sources.
+Atlas is built around a single principle — the most valuable data is the data nobody else has. Not aggregated feeds. Not licensed vendor content. Proprietary records sourced, normalized, and maintained by the engine itself, growing autonomously every night. As of **2026-05-04 19:45 UTC**, Atlas holds hundreds of millions of verified records across hundreds of active sources.
 
 ![Atlas Pipeline Health — data categories, source counts, and 7-day activity](images/pipeline-health.png)
 
@@ -20,7 +20,7 @@ Signals are the intelligence layer — computed indicators that surface patterns
 
 ## Distress & Filing Data
 
-**127,678** distress filings tracked across lis pendens, foreclosure activity, tax delinquency, and related court records. **17,856** distress signals generated from that filing activity. This is among the most time-sensitive data in Atlas — distress events move fast and the engine is designed to capture them as they happen.
+Hundreds of thousands of distress filings tracked across lis pendens, foreclosure activity, tax delinquency, and related court records. Tens of thousands of distress signals generated from that filing activity. This is among the most time-sensitive data in Atlas — distress events move fast and the engine is designed to capture them as they happen.
 
 ## Commercial & Permit Data
 

@@ -10,13 +10,13 @@ The distinction matters. A database stores what you put into it. Atlas decides w
 
 ## Autonomous by Design
 
-Atlas runs 24 hours a day, 7 days a week. At any given moment **606** runners are active across **447** data sources, executing ingestion, normalization, signal generation, and quality verification. The nightly pipeline maintains a 93.4% completion rate across hundreds of concurrent operations — without a team managing it.
+Atlas runs 24 hours a day, 7 days a week. At any given moment hundreds of autonomous runners are active across hundreds of active sources, executing ingestion, normalization, signal generation, and quality verification. The nightly pipeline maintains a 93.4% completion rate across hundreds of concurrent operations — without a team managing it.
 
 When a source fails the system detects it. When coverage gaps emerge the engine identifies them. When data quality degrades below acceptable thresholds it flags it. The system is designed to operate and improve itself continuously.
 
 ## Proprietary by Nature
 
-The data asset Atlas has built cannot be purchased from any vendor. It is the product of thousands of source relationships, normalization decisions, and signal generation processes developed over time. **249,263,871** verified records across property, transaction, distress, entity, commercial, and climate data — joined, normalized, and queryable as a single coherent asset.
+The data asset Atlas has built cannot be purchased from any vendor. It is the product of thousands of source relationships, normalization decisions, and signal generation processes developed over time. Hundreds of millions of verified records across property, transaction, distress, entity, commercial, and climate data — joined, normalized, and queryable as a single coherent asset.
 
 ## From Records to Intelligence
 
@@ -37,7 +37,7 @@ Current signal categories include:
 
 Distress is one of the highest-value signal categories in real estate. Atlas tracks distress filings continuously — lis pendens, foreclosure activity, tax delinquency, and court records — and converts them into actionable signals that surface properties and owners under financial stress before that stress becomes public knowledge.
 
-At current scale Atlas has tracked **127,678** distress filings and generated **17,856** distress signals, updated automatically as new filing activity is detected.
+At current scale Atlas has tracked hundreds of thousands of distress filings and generated tens of thousands of distress signals, updated automatically as new filing activity is detected.
 
 ## Scoring
 

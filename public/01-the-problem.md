@@ -26,4 +26,4 @@ The institutions best positioned to act on real estate intelligence are the ones
 
 ---
 
-Atlas was built to solve this directly. Not by aggregating existing vendor feeds — but by building a proprietary, autonomous data engine that sources, normalizes, and continuously improves its own data asset independently of any legacy provider. Today that engine tracks **249,263,871** verified records across **447** active sources, growing autonomously every night.
+Atlas was built to solve this directly. Not by aggregating existing vendor feeds — but by building a proprietary, autonomous data engine that sources, normalizes, and continuously improves its own data asset independently of any legacy provider. Today that engine tracks hundreds of millions of verified records across hundreds of active sources, growing autonomously every night.

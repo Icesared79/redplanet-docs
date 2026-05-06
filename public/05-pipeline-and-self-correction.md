@@ -6,13 +6,13 @@ Atlas operates as a continuous ingestion and enrichment engine. At any given mom
 
 Atlas does not rely on a fixed list of manually curated sources. The engine includes an autodiscovery layer that continuously identifies new data sources across government portals, court record systems, county assessor databases, state entity registries, and similar public-record domains. When a new source is identified it is added to the source registry, categorized, and queued for ingestion development.
 
-Currently Atlas tracks **985** source baselines across **24** categories. Of those, **447** are active and ingesting data. The remainder are in various stages of discovery, development, or remediation.
+Currently Atlas tracks thousands of tracked source baselines across **24** categories. Of those, hundreds are active and ingesting data. The remainder are in various stages of discovery, development, or remediation.
 
 ## The Runner Framework
 
 Each data source has a dedicated runner responsible for connecting to that source, extracting the data, normalizing it to Atlas schema, and writing it into the data asset. Runners are standardized in structure but customized per source. They handle authentication, pagination, rate limiting, and error recovery independently.
 
-**606** runners are currently in the system. Every execution is logged — status, records processed, errors encountered, and timing — creating a complete audit trail of every data operation Atlas has ever performed.
+Hundreds of autonomous runners are currently in the system. Every execution is logged — status, records processed, errors encountered, and timing — creating a complete audit trail of every data operation Atlas has ever performed.
 
 ## Ingestion & Normalization
 
@@ -50,7 +50,7 @@ When a problem is detected the self-correction layer attempts recovery automatic
 
 Every source in Atlas carries a health status that updates automatically based on execution history and data-flow patterns. A real-time view of the entire source ecosystem is maintained at all times — which sources are performing, which are degrading, and which need attention.
 
-This visibility is what makes managing a platform of **447** active sources tractable. At any given moment the health of every data source is known, classified, and actionable.
+This visibility is what makes managing a platform of hundreds of active sources tractable. At any given moment the health of every data source is known, classified, and actionable.
 
 ## Gap Discovery
 
